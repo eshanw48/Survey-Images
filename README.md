@@ -1,5 +1,10 @@
 ## Tess4J
 
+I created a program which scans images of surveys and creates a survey out of them. I use the Tesseract API to get the text from the image as a string. Then, I apply my own logic to perform text analysis on that string to obtain the different questions and answer choices
+
+My code is under src/main/java/tess4j
+
+
 [![Join the chat at https://gitter.im/nguyenq/tess4j](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nguyenq/tess4j?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 A Java JNA wrapper for [Tesseract OCR API](https://github.com/tesseract-ocr).
