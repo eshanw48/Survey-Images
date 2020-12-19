@@ -772,7 +772,7 @@ public class Survey {
 		Long endTime = System.currentTimeMillis();
 		Long totalTime=endTime-startTime;
 		System.out.println(  "Time taken for the API call "+resource+" - "+ (totalTime) + "ms");
-		//opJson = createJsonFromString(output);
+		opJson = createJsonFromString(output);
 		
 		} catch (Exception e) {
 		System.out.println("Exception occurred in callPOSTOrPUTAPI" + e.getMessage());
